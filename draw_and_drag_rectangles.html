@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dart Drag and Drop Rectangles</title>
+    <link rel="stylesheet" href="draw_and_drag_rectangles.css">
+  </head>
+  <body>
+    <h1>Dart Drag and Drop Rectangles</h1>
+    <p>In the following `canvas` you can drag and drop rectangles!</p>
+    <p><a href="http://simonsarris.com/blog/510-making-html5-canvas-useful">Reference</a></p>
+    <ul>
+      <li>One click to (de)select</li>
+      <li>Double click to draw new rectangle</li>
+      <li>One click and move to drag</li>
+    </ul>
+    
+    <section>
+      <canvas id="app_container" width="600" height="400">
+        Sorry, your browser is not supported.
+      </canvas>
+    </section>
+
+    <script type="application/dart" src="draw_and_drag_rectangles.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
